@@ -1,0 +1,287 @@
+
+/* animation de fadein para el inicio */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 10%;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 10%;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 10%;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 10%;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 10%;
+  }
+}
+
+/* animation de fadein para el about me */
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 5%;
+  }
+}
+
+@-moz-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 5%;
+  }
+}
+
+@-webkit-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 5%;
+  }
+}
+
+@-o-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 5%;
+  }
+}
+
+@-ms-keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 5%;
+  }
+}
+/* animation de fadein para el dining and cuisine */
+
+@keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 3px;
+  }
+}
+
+@-moz-keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 3px;
+  }
+}
+
+@-webkit-keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 3px;
+  }
+}
+
+@-o-keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 3px;
+  }
+}
+
+@-ms-keyframes fadeIn3 {
+  0% {
+    opacity: 0;
+    margin-top: 30%;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 3px;
+  }
+}
+
+/* animation de in para la imagen en inicio */
+@keyframes in {
+  0%{
+    margin-left: -40%;
+  }
+  100%{
+    margin-left: 0%;
+  }
+}
+@-moz-keyframes in {
+  0%{
+    margin-left: -40%;
+  }
+  100%{
+    margin-left: 0%;
+  }
+}
+@-webkit-keyframes in {
+  0%{
+    margin-left: -40%;
+  }
+  100%{
+    margin-left: 0%;
+  }
+}
+@-o-keyframes in {
+  0%{
+    margin-left: -40%;
+  }
+  100%{
+    margin-left: 0%;
+  }
+}
+
+/* animation de in para la primera imagen del about me */
+@keyframes in2 {
+    0%{
+        margin-right: -40%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+@-moz-keyframes in2 {
+    0%{
+        margin-right: -40%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+@-webkit-keyframes in2 {
+    0%{
+        margin-right: -40%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+@-o-keyframes in2 {
+    0%{
+        margin-right: -40%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+@-ms-keyframes in2 {
+    0%{
+        margin-right: -40%;
+    }
+    100%{
+        margin-right: 0%;
+    }
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-moz-keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* animacion de fade */
+@-webkit-keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-o-keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@-ms-keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}

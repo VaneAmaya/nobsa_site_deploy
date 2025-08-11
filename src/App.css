@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fondo {
+  background: linear-gradient(#00000090, #00000090),
+    url(../src/App/assets/images/fondo.jpg);
+  background-size: cover;
+  display: inline-flex;
+  justify-content: center;
+  background-position:center;
+  background-attachment: fixed;
+}
+
+.piePagina{
+  background: #31960ee6;
+  box-shadow: 0px 0px 10px 10px #31960ee6;  
+   
+}
+
+.nav-link{
+  background-color: #31960ee6;
+  font-family: 'Pavanam', sans-serif;                    
+  transition: all 2s;
+}
+.nav-link:hover{
+  background-color: #45F55B30;
+}
+
+.linea{
+  color: #7af0d600;
+  background-color: #7af0d666;
+  width: 50%;
+  font-size: 3px;
+  margin-left: 25%;
+}
+
+.link{
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 200ms;
+}
+.link:hover{
+  transform: scale(1.2);
+}
+#root{
+  font-family: 'Montserrat';
+}
+
+.btn-7AF0D680 { 
+  --bs-btn-border-color: #7AF0D680 !important;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #7AF0D680 !important;
+  --bs-btn-hover-border-color: #7AF0D680 !important;
+  --bs-btn-focus-shadow-rgb: 25,135,84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #7AF0D680;
+  --bs-btn-active-border-color: #7AF0D680;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #7AF0D680;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #7AF0D680;
+  --bs-gradient: none;
+}
+
+.leaflet-container{
+  width: 150vh;
+  height: 50vh;
+}
