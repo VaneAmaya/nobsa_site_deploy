@@ -47,7 +47,7 @@ export const EventoLand = () => {
           />
         </button>
         <h1 className="mt-5 mb-5" style={{ translate: "-4%" }}>
-          Description
+          Descripción
         </h1>
         <div style={{ background: "#7AF0D680" }}>
           <p
@@ -58,7 +58,7 @@ export const EventoLand = () => {
           </p>
         </div>
         <div className="d-flex justify-content-center align-items-center mb-4">
-          <span className="fs-3">Want to know more click &nbsp;</span>
+          <span className="fs-3">¿Quieres saber más? Haz clic aquí. &nbsp;</span>
           <Link
             className="btn fs-3 text-light btn-7AF0D680 border-3 rounded-4"
             to={`${miEvento?.url}`}
@@ -66,7 +66,7 @@ export const EventoLand = () => {
             Here!
           </Link>
         </div>
-        <h1 className="mt-5 mb-5">Location</h1>
+        <h1 className="mt-5 mb-5">Ubicación</h1>
         <div style={{marginBottom:"10%"}}>
         <Mapa
           position={miEvento?.location}
@@ -78,7 +78,7 @@ export const EventoLand = () => {
           style={{ backgroundColor: "#7AF0D680" }}
         >
           <div>
-            <h1 className="m-3">Start At</h1>
+            <h1 className="m-3">Inica:</h1>
             <p
               className="fs-3 rounded-5"
               style={{ backgroundColor: "#45f55b4d" }}
@@ -87,7 +87,7 @@ export const EventoLand = () => {
             </p>
           </div>
           <div>
-            <h1 className="m-3">Ends At</h1>
+            <h1 className="m-3">Finaliza:</h1>
             <p
               className="fs-3 rounded-5"
               style={{ backgroundColor: "#45f55b4d" }}

@@ -20,7 +20,7 @@ export const EventsLand = () => {
       style={{ animation: "3s fadeIn3" }}
     >
       <div className="mt-5 w-100 mb-3">
-        <h1>Events to enjoy the stay</h1>
+        <h1>Eventos para disfrutar de la estancia</h1>
         <div className="linea rounded-5 mt-3 ">s</div>
       </div>
       <div className="mb-5">
