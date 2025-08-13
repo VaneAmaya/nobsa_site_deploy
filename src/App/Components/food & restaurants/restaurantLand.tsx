@@ -48,7 +48,7 @@ export const RestaurantLand = () => {
           />
         </button>
         <h1 className="mt-5 mb-5" style={{ translate: "-4%" }}>
-          Description
+          Descripción
         </h1>
         <div style={{ background: "#7AF0D680" }}>
           <p
@@ -59,15 +59,15 @@ export const RestaurantLand = () => {
           </p>
         </div>
         <div className="d-flex justify-content-center align-items-center mb-4">
-          <span className="fs-3">Want to know more click &nbsp;</span>
+          <span className="fs-3">Quieres saber más haz clic&nbsp;</span>
           <Link
             className="btn fs-3 text-light btn-7AF0D680 border-3 rounded-4"
             to={`${miResturante?.url}`}
           >
-            Here!
+          Aquí!
           </Link>
         </div>
-        <h1 className="mt-5 mb-5">Location</h1>
+        <h1 className="mt-5 mb-5">Ubicación</h1>
         <div style={{marginBottom: "10%"}}>
         <Mapa
           position={miResturante?.location}
@@ -79,7 +79,7 @@ export const RestaurantLand = () => {
           style={{ backgroundColor: "#7AF0D680" }}
         >
           <div>
-            <h1 className="m-3">Opens At</h1>
+            <h1 className="m-3">Abre</h1>
             <p
               className="fs-3 rounded-5"
               style={{ backgroundColor: "#45f55b4d" }}
@@ -88,7 +88,7 @@ export const RestaurantLand = () => {
             </p>
           </div>
           <div>
-            <h1 className="m-3">Closes At</h1>
+            <h1 className="m-3">Cierra</h1>
             <p
               className="fs-3 rounded-5"
               style={{ backgroundColor: "#45f55b4d" }}
@@ -97,7 +97,7 @@ export const RestaurantLand = () => {
             </p>
           </div>
         </div>
-        <h1 className="mt-5 mb-5">Some Reviews</h1>
+        <h1 className="mt-5 mb-5">Algunas reseñas</h1>
         <Carousel className="m-5" indicators={false}>
           {miResturante?.review.map((review) => (
             <Carousel.Item key={review.id} interval={2000}>

@@ -21,7 +21,7 @@ export const DiningCousine = () => {
       style={{ animation: "3s fadeIn3" }}
     >
       <div className="mt-5 w-100">
-        <h1>Meet our dining & cuisine </h1>
+        <h1> Conoce nuestra gastronomía y gastronomía</h1>
         <div className="linea rounded-5 mt-3 ">s</div>
       </div>
       <div className="row vh-100 p-5">
@@ -50,7 +50,7 @@ export const DiningCousine = () => {
         ))}
       </div>
       <div className="mt-5 w-100">
-        <h1>You can taste some of our cuisine here</h1>
+        <h1>Disfruta el sabor de nuestra cocina aquí</h1>
         <div className="linea rounded-5 mt-3 ">s</div>
       </div>
       <div className="mt-3 mb-5">
