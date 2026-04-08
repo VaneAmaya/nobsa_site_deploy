@@ -1,6 +1,6 @@
 {
   "name": "Node.js + TypeScript DevContainer",
-  "image": "ghcr.io/devcontainers/templates/typescript-node:5.0.0",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
   "customizations": {
     "vscode":{
       "extensions":[
